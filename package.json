@@ -1,0 +1,21 @@
+{  
+   "name":"machinepack-YOUR_MACHINE_NAME",
+   "version":"0.0.1",
+   "description":"YOUR_MACHINE_NAME solves world peace.",
+   "keywords":[  ],
+   "author":"YOUR NAME <YOUR@EMAIL>",
+   "license":"MIT",
+   "dependencies":{  
+
+   },
+   "repository":{  
+      "type":"git",
+      "url":"YOUR_GITHUB REPO"
+   },
+   "machinepack":{  
+      "machineDir":"machines",
+      "machines":[  
+
+      ]
+   }
+}
