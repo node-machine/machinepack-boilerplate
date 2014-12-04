@@ -1,7 +1,7 @@
 {  
-   "name":"machinepack-YOUR_MACHINE_NAME",
+   "name":"machinepack-YOUR_MACHINEPACK_NAME",
    "version":"0.0.1",
-   "description":"YOUR_MACHINE_NAME solves world peace.",
+   "description":"YOUR_MACHINEPACK_NAME solves world peace.",
    "keywords":[  ],
    "author":"YOUR NAME <YOUR@EMAIL>",
    "license":"MIT",
@@ -15,7 +15,7 @@
    "machinepack":{  
       "machineDir":"machines",
       "machines":[  
-
+        "hello-world.js"
       ]
    }
 }
