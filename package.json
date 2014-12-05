@@ -6,7 +6,8 @@
    "author":"YOUR NAME <YOUR@EMAIL>",
    "license":"MIT",
    "dependencies":{  
-
+      "machine": "^1.0.0",
+      "hat": "0.0.3"
    },
    "repository":{  
       "type":"git",
@@ -15,7 +16,7 @@
    "machinepack":{  
       "machineDir":"machines",
       "machines":[  
-        "hello-world.js"
+        "hello-world"
       ]
    }
 }
