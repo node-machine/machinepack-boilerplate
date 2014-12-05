@@ -11,6 +11,9 @@ This template exists to make it easier for you to get started writing a machinep
 3. Run `npm link` in the root of your machinepack project.
 4. Fire up the _Node console_ (e.g. `node`) and type `var myFirstMachinepack = require('./');`
 5. To see a machine in the macihine pack in action copy and paste this code into the console:
+`myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ error: function(error) { return error; }, success: function(result) { return result; } });`
+
+A prettier version of the same code:
 
 ```javascript
 myFirstMachinepack.helloWorld({ name: 'Nikola'
@@ -27,7 +30,6 @@ myFirstMachinepack.helloWorld({ name: 'Nikola'
   });
 ```
 
-`myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ error: function(error) { return error; }, success: function(result) { return result; } });`
 
 ## The Basic Structure of a Machinepack
 

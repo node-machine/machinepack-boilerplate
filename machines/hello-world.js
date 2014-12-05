@@ -66,7 +66,7 @@ module.exports = {
 
     var myLength = inputs.name.length;
 
-    console.log("Hello %s, your secret code is %s", inputs.name, secretCode); 
+        console.log("\n\n\n\n***********************************\nHello %s, your secret code is %s", inputs.name, secretCode); 
 
     return exits.success({
       numLettersInName: myLength, 
