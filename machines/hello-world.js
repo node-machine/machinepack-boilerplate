@@ -220,7 +220,7 @@ module.exports = {
 
     // Log inputs.name and the secretCode. 
 
-    console.log("\n\n\n\n***********************************\nHello %s, your secret code is %s", inputs.name, secretCode); 
+    console.log("\n\n\n\n*******************************************************************\nHello %s, your secret code is %s", inputs.name, secretCode); 
 
     // Return an object containing myLength and the secretCode
 

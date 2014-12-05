@@ -6,14 +6,30 @@ This template exists to make it easier for you to get started writing a machinep
 
 # Getting Started
 
-1. Clone this repository.
-2. Rename  the machinepack in the `package.json` file.
-3. Run `npm link` in the root of your machinepack project.
-4. Fire up the _Node console_ (e.g. `node`) and copy and paste: `var myFirstMachinepack = require('./');`
-5. Execute the `helloWorld` method in the machinepack copying and pasting this code into the console:
-`myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ error: function(error) { return error; }, success: function(result) { return result; } });`
-6. Add a new `machine` in the `machines` folder.
-7. Update your `package.json` file to reflect the new machine.
+- Clone this repository.
+- Rename  the machinepack in the `package.json` file.
+- Run `npm link` in the root of your machinepack project.
+- Fire up the _Node console_ (e.g. `node`) and _copy and paste_: 
+
+```javascript
+`var myFirstMachinepack = require('./');
+```
+-  Execute the `helloWorld` method in the machinepack _copying and pasting_ this code into the console:
+
+```javascript
+myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ 
+  
+  error: function() { 
+    console.log("error exit called!");
+  }, 
+
+  success: function(result) { 
+    console.log console.log("success exit called!"); 
+  } 
+});
+```
+- Add a new `machine` in the `machines` folder.
+- Update your `package.json` file to reflect the new machine.
 
 Documentation pages for the machines contained in this module are automatically generated and kept up-to-date on http://node-machine.org.
 
