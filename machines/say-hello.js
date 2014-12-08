@@ -34,7 +34,8 @@ module.exports = {
   /**
    *
    * extendedDescription
-   * Provides supplemental info on top of description. Full markdown syntax with complete sentences (including punctuation). Should be less than 2000 characters.
+   * Provides supplemental info on top of description. Full markdown syntax with complete sentences (including punctuation). 
+   * Should be less than 2000 characters.
    * 
    * Some example uses would be:
    * - Technical notes
