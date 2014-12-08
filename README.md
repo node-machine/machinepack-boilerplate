@@ -13,7 +13,8 @@ This template exists to make it easier for you to get started writing a machinep
   ```javascript
   var myFirstMachinepack = require('./');
   ```
--  Execute the `helloWorld` method in the machinepack _copying and pasting_ this code into the console:
+
+- Execute the `helloWorld` method in the machinepack _copying and pasting_ this code into the console:
   ```javascript
   myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ 
     
