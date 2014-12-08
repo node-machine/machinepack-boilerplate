@@ -1,7 +1,7 @@
 ![node-machine logo](http://node-machine.org/images/machine-anthropomorph-for-white-bg.png)
 # machinepack-boilerplate
 
-This template exists to make it easier for you to get started writing a machinepack and the machines contained in it. It contains one machine (i.e. sayHello) as a fully commented example.
+This template exists to make it easier for you to get started writing a machinepack and the machines contained in it.  One machine (i.e. sayHello) is provided as a fully commented example.
 
 For more information about machinepacks and machines, check out http://node-machine.org.
 
@@ -33,7 +33,15 @@ For more information about machinepacks and machines, check out http://node-mach
   - You will see some stuff get logged (because it's a multi-line copy+paste), but after that, you should see:
     
     ```bash
-    > Hello Nikola, your secret code is c34add2aa201ce1f0c4db332615f03d0
+    -----------------------------------------
+    [Machine: say-hello]
+    Log a hello message with a generated secret code and other information
+ 
+    Inputs:
+       • name     (e.g. "John")
+    -----------------------------------------
+
+    Hello Nikola, your secret code is c34add2aa201ce1f0c4db332615f03d0
     `success` exit called!
     ```
 
