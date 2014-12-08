@@ -2,8 +2,11 @@
    "name":"machinepack-boilerplate",
    "version":"0.0.1",
    "description":"YOUR_MACHINEPACK_NAME solves world peace.",
-   "keywords":[  ],
-   "author":"YOUR NAME <YOUR@EMAIL>",
+   "keywords": [
+      "machinepack",
+      "machines"
+   ],
+   "author":"YOUR NAME",
    "license":"MIT",
    "dependencies":{  
       "machine": "^1.0.0",
@@ -16,7 +19,7 @@
    "machinepack":{  
       "machineDir":"machines",
       "machines":[  
-        "hello-world"
+        "say-hello"
       ]
    }
 }
