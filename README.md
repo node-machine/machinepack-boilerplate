@@ -1,14 +1,14 @@
 ![node-machine logo](http://node-machine.org/images/machine-anthropomorph-for-white-bg.png)
 # machinepack-boilerplate
 
-This template exists to make it easier for you to get started writing a machinepack and the machines contained in it.
+This template exists to make it easier for you to get started writing a machinepack and the machines contained in it. It contains one machine (i.e. sayHello) as a fully commented example.
 
 For more information about machinepacks and machines, check out http://node-machine.org.
 
 ## Getting Started
 
 - Clone this repository.
-- Run `npm link` in the root of your machinepack project.
+- Run `npm install` in the root of your machinepack project.
 - Fire up the _Node console_ (i.e. `node`) and _copy and paste_: 
   ```javascript
   var myFirstMachinepack = require('./');
@@ -31,7 +31,9 @@ For more information about machinepacks and machines, check out http://node-mach
   ```
 
   - You will see some stuff get logged (because it's a multi-line copy+paste), but after that, you should see:
+    
     ```bash
+    > Hello Nikola, your secret code is c34add2aa201ce1f0c4db332615f03d0
     `success` exit called!
     ```
 
@@ -39,15 +41,18 @@ For more information about machinepacks and machines, check out http://node-mach
 ## Adding a New Machine
 - Create a new file in the `machines/` folder which exports a machine definition, e.g. `say-hello-to-universe.js`
 - Update the `machinepack.machines` key in your `package.json` file to reflect the new machine:
+  
   ```javascript
   // ...
   {
     "machines": [
+      "say-hello",
       "say-hello-to-universe"
     ]
   }
   ```
 - Now you can call `sayHelloToUniverse()` when you require your machinepack, e.g.:
+  
   ```javascript
   require('./').sayHelloToUniverse({
     // inputs...

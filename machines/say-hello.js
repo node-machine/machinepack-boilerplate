@@ -271,24 +271,28 @@ module.exports = {
 
     var Hat = require('hat');
 
-    // Generate a key.
+    setTimeout(function(){ 
 
-    var secretCode = Hat();
+      // Generate a key.
 
-    // Get the length of inputs.name.
+      var secretCode = Hat();
 
-    var myLength = inputs.name.length;
+      // Get the length of inputs.name.
 
-    // Log inputs.name and the secretCode. 
+      var myLength = inputs.name.length;
 
-    console.log("\n\n\n\n*******************************************************************\nHello %s, your secret code is %s", inputs.name, secretCode); 
+      // Log inputs.name and the secretCode. 
 
-    // Return an object containing myLength and the secretCode
+      console.log("Hello %s, your secret code is %s", inputs.name, secretCode); 
 
-    return exits.success({
-      numLettersInName: myLength, 
-      secretCode: secretCode
-    });
+      // Return an object containing myLength and the secretCode
+
+      return exits.success({
+        numLettersInName: myLength, 
+        secretCode: secretCode
+      });
+
+    }, 1); 
 
   }
 
