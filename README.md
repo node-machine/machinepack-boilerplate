@@ -30,8 +30,13 @@ For more information about machinepacks and machines, check out http://node-mach
   });
   ```
 
+  - You will see some stuff get logged (because it's a multi-line copy+paste), but after that, you should see:
+    ```
+    `success` exit called!
+    ```
 
-## Adding A New Machine
+
+## Adding a New Machine
 - Create a new file in the `machines/` folder which exports a machine definition, e.g. `say-hello-to-universe.js`
 - Update the `machinepack.machines` key in your `package.json` file to reflect the new machine:
   ```javascript
@@ -65,7 +70,11 @@ Change the `name` property in your machinepack's `package.json` file, e.g.:
 ```
 This is how it will show up on NPM as well as on http://node-machine.org.  For instance, if I chose `machinepack-foo`, the generated documentation would be available at http://node-machine.org/machinepack-foo.
 
-> Note that `"machinepack"` is listed as a keyword in the `package.json` file- this is important so that the machinepack module is automatically picked up by our script on the http://node-machine.org website.  Curious how this works?  Check out [machinepack-npm](http://github.com/mikermcneil/machinepack-npm)
+Next, go through and replace the `author` and `repository.url` and `description` with your name (or preferred pseudonym), the actual github repo you'll be using for your machinepack, and a short description of what kind of machines this machinepack contains.
+
+For a complete reference of all of the machinepack-specific `package.json` properties, check out http://node-machine.org/spec/machinepack.  In particular,  note that `"machinepack"` and `"machines"` are listed as keywords in the `package.json` file- this is important so that the machinepack module is automatically picked up by our script on the http://node-machine.org website.
+
+> Curious how this works?  Check out [machinepack-npm](http://github.com/mikermcneil/machinepack-npm)
 
 
 ##### Publishing to NPM
