@@ -31,7 +31,7 @@ For more information about machinepacks and machines, check out http://node-mach
   ```
 
   - You will see some stuff get logged (because it's a multi-line copy+paste), but after that, you should see:
-    ```
+    ```bash
     `success` exit called!
     ```
 
