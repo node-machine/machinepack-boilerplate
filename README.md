@@ -10,24 +10,23 @@ This template exists to make it easier for you to get started writing a machinep
 - Rename  the machinepack in the `package.json` file.
 - Run `npm link` in the root of your machinepack project.
 - Fire up the _Node console_ (e.g. `node`) and _copy and paste_: 
-
-```javascript
-`var myFirstMachinepack = require('./');
-```
+  ```javascript
+  var myFirstMachinepack = require('./');
+  ```
 -  Execute the `helloWorld` method in the machinepack _copying and pasting_ this code into the console:
-
-```javascript
-myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ 
+  ```javascript
+  myFirstMachinepack.helloWorld({ name: 'Nikola'}).exec({ 
+    
+    error: function() { 
+      console.log("error exit called!");
+    }, 
   
-  error: function() { 
-    console.log("error exit called!");
-  }, 
+    success: function(result) { 
+      console.log console.log("success exit called!"); 
+    } 
+  });
+  ```
 
-  success: function(result) { 
-    console.log console.log("success exit called!"); 
-  } 
-});
-```
 - Add a new `machine` in the `machines` folder.
 - Update your `package.json` file to reflect the new machine.
 
