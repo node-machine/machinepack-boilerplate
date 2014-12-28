@@ -1,9 +1,11 @@
 ![node-machine logo](http://node-machine.org/images/machine-anthropomorph-for-white-bg.png)
 # machinepack-boilerplate
 
-This template exists to make it easier for you to get started writing a machinepack and the machines contained in it.  One machine (i.e. sayHello) is provided as a fully commented example.
+This template exists to make it easier for you to get started writing a machinepack and the machines contained in it.  One machine (i.e. `say-hello`) is provided as a fully commented example.
 
 For more information about machinepacks and machines, check out http://node-machine.org.
+
+> Done this before?  Check out the yeoman generator: https://github.com/node-machine/generator-machinepack
 
 ## Getting Started
 
