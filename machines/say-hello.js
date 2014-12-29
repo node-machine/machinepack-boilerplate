@@ -137,23 +137,6 @@ module.exports = {
 
   defaultExit: 'success',
 
-  /**
-   *
-   * catchAllExit
-   * 
-   * If machine fn calls `exits.foo()`, and a `foo` callback is not specified in user code, this exit will be called instead. 
-   * 
-   * Defaults to "error" if an exit named "error" exists; otherwise leaving this blank will result in an error being 
-   * thrown (since the `machine` module can't find an exit to call)
-   * 
-   * > Note to switchback users:
-   * > This default exit is what will be triggered by calling `exits("anything")`.
-   * 
-   */
-
-  catchallExit: 'error',
-
-
 
   exits: {
 
