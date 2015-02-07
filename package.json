@@ -1,25 +1,31 @@
-{  
-   "name":"machinepack-boilerplate",
-   "version":"0.0.1",
-   "description":"YOUR_MACHINEPACK_NAME solves world peace.",
-   "keywords": [
-      "machinepack",
-      "machines"
-   ],
-   "author":"YOUR NAME",
-   "license":"MIT",
-   "dependencies":{  
-      "machine": "^1.0.0",
-      "hat": "0.0.3"
-   },
-   "repository":{  
-      "type":"git",
-      "url":"YOUR_GITHUB REPO"
-   },
-   "machinepack":{  
-      "machineDir":"machines",
-      "machines":[  
-        "say-hello"
-      ]
-   }
+{
+  "name": "machinepack-boilerplate",
+  "version": "0.0.1",
+  "description": "YOUR_MACHINEPACK_NAME solves world peace.",
+  "keywords": [
+    "machinepack",
+    "machines"
+  ],
+  "author": "YOUR NAME",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^3.0.0",
+    "hat": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "YOUR_GITHUB REPO"
+  },
+  "machinepack": {
+    "machineDir": "machines",
+    "machines": [
+      "say-hello"
+    ]
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  }
 }
