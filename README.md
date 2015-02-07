@@ -3,7 +3,7 @@
 
 This template exists to make it easier for you to get started writing a machinepack and the machines contained in it.  One machine (i.e. `say-hello`) is provided as a fully commented example.
 
-For more information about machinepacks and machines, check out http://node-machine.org.
+For more information about building machinepacks and machines, check out [http://node-machine.org/implementing](http://node-machine.org/implementing).
 
 > Done this before?  Check out the yeoman generator: https://github.com/node-machine/generator-machinepack
 
