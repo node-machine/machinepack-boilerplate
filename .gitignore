@@ -65,3 +65,7 @@ typings/
 
 # IntelliJ
 .idea
+
+# VSCode
+.vscode
+package-lock.json
