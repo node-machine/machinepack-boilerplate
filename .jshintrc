@@ -1,0 +1,21 @@
+{
+  "-W080": true,
+  "boss": true,
+  "browser": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": false,
+  "evil": true,
+  "expr": true,
+  "laxcomma": false,
+  "loopfunc": false,
+  "nocomma": true,
+  "node": true,
+  "quotmark": "single",
+  "regexdash": true,
+  "smarttabs": false,
+  "sub": true,
+  "supernew": true,
+  "trailing": false,
+  "wsh": true
+}
